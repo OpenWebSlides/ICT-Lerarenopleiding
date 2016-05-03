@@ -8,6 +8,16 @@
   color: #ffffff !important;
   background: none !important;
 }
+.button a:before {
+  content: ' ';
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  float: left;
+  background-image: url(../pictures/link-512.gif);
+  background-size: cover;
+}
 .button:hover {
   background: #3cb0fd;
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
