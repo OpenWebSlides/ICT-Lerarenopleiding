@@ -26,3 +26,26 @@ iframe{
     width: 940px;
     height: 550px;
 }
+.twitter-timeline {
+  width:  340px !important;
+  height: 660px !important;
+  margin-top: -40px !important;
+  transform: scale(0.8);
+}
+
+@media print {
+@page {
+  size:landscape;
+  margin: 25mm;
+  }
+
+.shower.full {
+  transform:none!important;
+  }
+
+.slide {
+  border: 0.05cm solid black;
+  page-break-inside:avoid;
+  page-break-after:always;
+  }
+}
